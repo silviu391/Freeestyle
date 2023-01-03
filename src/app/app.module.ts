@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { LoggerComponent } from './logger/logger.component';
 import { AlertsComponent } from './comp/alerts.component';
 import { AuthGuardComponent } from './helpers/auth.guard.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoggerComponent,
     AlertsComponent,
-    AuthGuardComponent
+    AuthGuardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
